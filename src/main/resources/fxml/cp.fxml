@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #4b4b4b;" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="codes.matthewp.overlayfx.controller.CpController">
+   <children>
+      <ToolBar layoutY="-6.0" prefHeight="40.0" prefWidth="600.0" style="-fx-background-color: #3d3d3d;" styleClass="tool">
+        <items>
+            <MenuButton mnemonicParsing="false" styleClass="button" text="File">
+              <items>
+                  <MenuItem fx:id="menuReset" mnemonicParsing="false" onAction="#deReset" text="Reset" />
+                  <MenuItem mnemonicParsing="false" onAction="#doSettings" text="Settings" />
+                <MenuItem fx:id="menuHelp" mnemonicParsing="false" onAction="#doHelp" text="Help" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                <MenuItem fx:id="menuExit" mnemonicParsing="false" onAction="#doExit" text="Exit" />
+              </items>
+            </MenuButton>
+        </items>
+      </ToolBar>
+      <Button layoutX="163.0" layoutY="150.0" mnemonicParsing="false" onAction="#doWinAdd" prefHeight="101.0" prefWidth="119.0" text="Win" />
+      <Button layoutX="317.0" layoutY="150.0" mnemonicParsing="false" onAction="#doLossAdd" prefHeight="101.0" prefWidth="119.0" text="Loss" />
+   </children>
+</AnchorPane>

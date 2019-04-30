@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane disable="true" styleClass="hideMe" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="codes.matthewp.overlayfx.controller.OverlayController">
+   <children>
+      <ImageView fx:id="img1" fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" styleClass="hideMe">
+         <image>
+            <Image url="@../img/blank.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="DISAPPEAR" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="img2" fitHeight="48.0" fitWidth="48.0" layoutX="48.0" pickOnBounds="true" preserveRatio="true" styleClass="hideMe">
+         <image>
+            <Image url="@../img/blank.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="DISAPPEAR" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="img3" fitHeight="48.0" fitWidth="48.0" layoutX="96.0" pickOnBounds="true" preserveRatio="true" styleClass="hideMe">
+         <image>
+            <Image url="@../img/blank.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="DISAPPEAR" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="img4" fitHeight="48.0" fitWidth="48.0" layoutX="144.0" pickOnBounds="true" preserveRatio="true" styleClass="hideMe">
+         <image>
+            <Image url="@../img/blank.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="DISAPPEAR" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>

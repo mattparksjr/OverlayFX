@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="375.0" prefWidth="298.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="codes.matthewp.overlayfx.controller.CpController">
+   <children>
+      <Label layoutX="84.0" text="OverlayFX" textFill="#239028">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="45.0" prefHeight="179.0" prefWidth="265.0" text="OverlayFX is a program written by Matthew Parks for his friend, Matthew. This overlay simply lays an overlay over the screen, and allows for check marks, and x marks to be added to the screen. The control panel allows for a win or loss to be added via the respective buttons. The file toolbar allows the user to reset the win/loss overlay, change the position of the overlay via the settings tab, and finally an exit button that allows for a clean exit." textAlignment="CENTER" wrapText="true" />
+      <Label layoutX="39.0" layoutY="248.0" prefHeight="45.0" prefWidth="220.0" text="Made with love, mattparksjr@gmail.com, 704-819-9838" wrapText="true" />
+      <Button onAction="#aboutClose" layoutX="125.0" layoutY="336.0" mnemonicParsing="false" text="Close" />
+   </children>
+</AnchorPane>
